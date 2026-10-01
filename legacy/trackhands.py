@@ -4,7 +4,7 @@ from mediapipe.tasks import python
 import numpy as np
 
 
-base_options = python.BaseOptions(model_asset_path = 'hand_landmarker.task')
+base_options = python.BaseOptions(model_asset_path = './assets/hand_landmarker.task')
 options = mp.tasks.vision.HandLandmarkerOptions(base_options = base_options, num_hands = 2)
 detector = mp.tasks.vision.HandLandmarker.create_from_options(options)
 
