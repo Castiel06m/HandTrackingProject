@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/signtext/__init__.py
+src/signtext.egg-info/PKG-INFO
+src/signtext.egg-info/SOURCES.txt
+src/signtext.egg-info/dependency_links.txt
+src/signtext.egg-info/top_level.txt
+src/signtext/data/__init__.py
+src/signtext/inference/__init__.py
+src/signtext/models/__init__.py
+src/signtext/tracking/__init__.py
+src/signtext/training/__init__.py
